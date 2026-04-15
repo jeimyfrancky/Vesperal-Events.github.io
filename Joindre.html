@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nous Rejoindre - Poète Nocturne</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="image/Logo de Vesperal Events.png" alt="logo de Poète Nocturne" class="image_logo">
+            <h1>VESPERAL <br>EVENTS</h1>
+            <ul class="entete">
+                <li><button><a href="Acceuil.html">Accueil</a></button></li>
+                <li><button><a href="Services.html">Nos Services</a></button></li>
+                <li><button><a href="Produits.html">Nos Produits</a></button></li>
+                <li><button><a href="Valeurs.html">Nos Valeurs</a></button></li>
+                <li><button><a href="Joindre.html">Nous Rejoindre</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="body_joindre">
+        <div class="intro_joindre">
+            <h2>Rejoignez notre équipe de divertissement !</h2>
+            <p>Si vous êtes passionné par <strong>l'art oratoire, le slam et le divertissement</strong>, nous serions 
+            ravis de vous accueillir dans notre collectif. Veuillez remplir le formulaire ci-dessous pour nous faire part 
+            de votre intérêt à rejoindre notre équipe.</p>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Informations personnelles</legend>
+                <p>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required size="50">
+                </p>
+                <p>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required size="50">
+                </p>
+                <p>
+                    <label for="date_naissance">Date de naissance :</label>
+                    <input type="date" id="date_naissance" name="date_naissance" required>
+                </p>
+                <p>
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" required size="30">
+                </p>
+                <p>
+                    <label for="phone">Numéro de téléphone :</label>
+                    <input type="tel" id="phone" name="phone" required size="30">
+                </p>
+                <p>
+                    <label for="sexe">Sexe :</label>
+                    <select id="sexe" name="sexe" required>
+                        <option value="">Sélectionnez votre sexe</option>
+                        <option value="homme">Homme</option>
+                        <option value="femme">Femme</option>
+                    </select>
+                </p>
+                 <p>
+                    <label for="niveau_etude">Niveau d'étude :</label>
+                    <select id="niveau_etude" name="niveau_etude" required>
+                        <option value="">Sélectionnez votre niveau d'étude</option>
+                        <option value="bac">Baccalauréat</option>
+                        <option value="licence">Licence</option>
+                        <option value="master">Master</option>
+                        <option value="doctorat">Doctorat</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="domaine_etude">Domaine d'étude :</label>
+                    <input type="text" id="domaine_etude" name="domaine_etude" required size="50">
+                </p>
+                <p>
+                    <label for="niveau_de_francais">Niveau de français :</label>
+                    <input type="range" id="niveau_de_francais" name="niveau_de_francais" min="0" max="4" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Corps du message</legend>
+                <p>
+                    <label for="objet">Objet : </label>
+                    <input type="text" id="objet" name="objet" required placeholder="Quel est la raison de votre message ?" size="50">
+                </p>
+                <p>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" required placeholder="Ecrivez ici votre message ou commentaire ou suggestion" rows="30" cols="100"></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Vos pièces jointes</legend>
+                <p>
+                    <label for="cv">CV :</label>
+                    <input type="file" id="cv" name="cv" required>
+                </p>
+                <p>
+                    <label for="lettre_motivation">Lettre de motivation :</label>
+                    <input type="file" id="lettre_motivation" name="lettre_motivation" required>
+                </p>
+                <p>
+                    <label for="autre_file">Autre fichier :</label>
+                    <input type="file" id="autre_file" name="autre_file">
+                </p>
+            </fieldset>
+            <p>
+                <input type="checkbox" id="confirmation" name="confirmation" required>
+                <label for="confirmation">Je confirme l'exactitude de mes informations</label>
+            </p>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <div class="gauche">
+            <div class="adresse">
+                <img src="icons/adresse.png" alt="icone d'adresse" class="icon">
+                <p>10ème étage, Tour REDLAND, Ankorondrano<br>101 Antananarivo, Madagascar</p>
+            </div>
+            <p>&copy;Copyright 2026 Poète Nocturne.</p>
+        </div>
+        <div class="droite">
+            <h4>CONTACTS</h4>
+            <div class="phone">
+                <img src="icons/phone.png" alt="icone de téléphone" class="icon">
+                <span>+261 38 76 408 48 <br>+261 33 40 768 34</span>
+            </div>
+            <div class="facebook">
+                <img src="icons/facebook.png" alt="icone de Facebook" class="icon">
+                <span><a href="https://www.facebook.com/profile.php?id=61585714660756" target="_blank">Poète Nocturne</a></span>
+            </div>
+            <div class="linkedin">
+                <img src="icons/linkedin.png" alt="icone de LinkedIn" class="icon">
+                <span><a href="https://www.linkedin.com/in/jeimyfrancky/" target="_blank">Hasinirina Jeimy Francky TEFINDRAZANA</a></span>
+            </div>
+            <div class="email">
+                <img src="icons/email.png" alt="icone d'email" class="icon">
+                <span>jeimyfrancky.p25s@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
