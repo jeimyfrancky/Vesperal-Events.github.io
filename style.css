@@ -302,6 +302,7 @@ details:hover {
     background-color: rgb(13, 11, 126);
     transform: scale(1.05);
     opacity: 0.90;
+    cursor: pointer;
 }
 /*... MAIN / NOS PRODUITS ...*/
 .produits {
