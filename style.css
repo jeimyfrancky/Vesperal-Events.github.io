@@ -435,4 +435,5 @@ footer a:hover {
         width: 150px;
         height: auto;
     }
-}
+    footer {
+        margin-right: 0;
