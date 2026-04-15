@@ -326,6 +326,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;
+    margin-right: 0;
     color: aliceblue;
     opacity: 0.90;
 }
